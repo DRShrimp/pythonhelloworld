@@ -3,18 +3,22 @@ y = "hello"
 print(x,y)
 print("hello world")
 
-x = "awesome"
+m = 2
+print(x ** m)
+
+
 
 def myfunc():
-  print("Python is " + x)
+  print("Python is " + y)
 
-  y = range(6)
+  z = range(6)
   print(y)
 
 myfunc()
 
 name = "Devin"
 age = 30
+
 
 txt = f"My name is {name} and I am {age} years old"
 print(txt)
