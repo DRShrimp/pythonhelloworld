@@ -22,3 +22,8 @@ age = 30
 
 txt = f"My name is {name} and I am {age} years old"
 print(txt)
+
+
+thislist = ["apple", "banana", "cherry"]
+thislist[1:3] = ["watermelon"]
+print(thislist)
